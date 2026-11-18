@@ -1,0 +1,99 @@
+//digital-figtop\frontend\user\real-estate.html
+
+//digital-figtop\frontend\admin\real-estate-create.html
+
+//digital-figtop\frontend\admin\admin-real-estate-edit.html
+
+//digital-figtop\frontend\admin\real-estate-investments.html
+
+
+//digital-figtop\frontend\user\my-loans.html
+
+//digital-figtop\frontend\user\apply.html
+
+//digital-figtop\frontend\admin\loan-plans.html
+
+//digital-figtop\frontend\admin\loans-view.html
+
+//digital-figtop\frontend\admin\loan-plans-create.html
+
+//digital-figtop\frontend\admin\loan-plans-edit.html
+
+
+//digital-figtop\frontend\user\stocks.html
+
+//digital-figtop\frontend\user\stock-detail.html
+
+//digital-figtop\frontend\user\stock-history.html
+
+//digital-figtop\frontend\user\stock-portfolio.html
+
+//digital-figtop\frontend\admin\admin-stock-shares.html
+
+//digital-figtop\frontend\admin\stock-shares-trades.html
+
+//digital-figtop\frontend\admin\stock-shares-positions-edit.html
+
+//digital-figtop\frontend\admin\stock-shares-user.html
+
+
+//digital-figtop\frontend\user\courses.html
+
+//digital-figtop\frontend\user\course-details.html
+
+//digital-figtop\frontend\user\admin-categories.html
+
+//digital-figtop\frontend\user\admin-courses-lessons.html
+
+//digital-figtop\frontend\admin\admin-courses.html
+
+//digital-figtop\frontend\admin\lessons-without-course.html
+
+//digital-figtop\frontend\admin\stock-shares-user.html
+
+
+
+//digital-figtop\frontend\user\subscribe-signals.html
+
+//digital-figtop\frontend\admin\signal-plans.html
+
+//digital-figtop\frontend\admin\signal-plans-create.html
+
+//digital-figtop\frontend\admin\signal-plans-edit.html
+
+
+
+
+
+
+
+//here are all the original template of each page pasted above this pages are for reference in makeing the ui exacly like it is here be it investment cards in the user page, my plans  card ui, plan-details card ui,admin plan page card ui, new-plan form ui etc
+
+
+
+//digital-figtop\frontend\user\subscribe-signals.html
+ on visit it displays all dynamic content has expected, while keeping every other and functionalities intact let these pages their navlinks in their nav menu should be same as the dashboard.html code and make sure they are populating the user avatar in it's expected places,
+
+//digital-figtop\frontend\admin\signal-plans.html
+on visit it displays all dynamic content default should be displaying loading until the ui is populated with the real data not static data, and let these pages their navlinks in their nav menu should be same as the manageruser.html code
+
+//digital-figtop\frontend\admin\signal-plans-create.html
+on visit it displays all dynamic content default should be displaying loading until the ui is populated with the real data not static data, and let these pages their navlinks in their nav menu should be same as the manageruser.html code
+
+//digital-figtop\frontend\admin\signal-plans-edit.html
+on visit it displays all dynamic content default should be displaying loading until the ui is populated with the real data not static data, and let these pages their navlinks in their nav menu should be same as the manageruser.html code
+
+
+C:\Users\EM D\Desktop\digital-figtop\backend\routes\user.route.js:2286
+  const exp = String(p.expiration || '').match(/(\d+(?:\.\d+)?)\s*(year|month|week|day|hour|minute)/i);
+                       ^
+
+TypeError: Cannot read properties of null (reading 'expiration')
+    at featurePlanDurationMs (C:\Users\EM D\Desktop\digital-figtop\backend\routes\user.route.js:2286:24)
+    at featurePlanProjectedProfit (C:\Users\EM D\Desktop\digital-figtop\backend\routes\user.route.js:2299:40)
+    at featureSettleExpiredInvestments (C:\Users\EM D\Desktop\digital-figtop\backend\routes\user.route.js:2375:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\EM D\Desktop\digital-figtop\backend\routes\user.route.js:2566:2
+
+Node.js v22.14.0
+Failed running 'app.js'
